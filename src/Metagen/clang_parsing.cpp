@@ -6,7 +6,7 @@ metagen::TranslationUnitTypes metagen::ParseTranslationUnit(std::string filename
 {
 	TranslationUnitTypes tu_types = { filename, {} };
 	CXIndex index = clang_createIndex(0, 0);
-	CXTranslationUnit unit = clang_parseTranslationUnit(index, filename.c_str(), compiler_args.data(), compiler_args.size(), nullptr, 0, CXTranslationUnit_None);
+	CXTranslationUnit unit = clang_parseTranslationUnit(index, filename.c_str(), compiler_args.data(), (int)compiler_args.size(), nullptr, 0, CXTranslationUnit_None);
 	if (unit == nullptr)
 	{
 		std::cerr << "Unable to parse translation unit " << filename << std::endl;

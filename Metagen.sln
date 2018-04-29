@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Metagen", "src\Metagen\Metagen.vcxproj", "{20DCF9D7-1A9A-4BB5-9E19-5501660AB9CA}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "example_1", "examples\example_1\example_1.vcxproj", "{C45215D0-5075-41FA-8CAD-CB11C72CD093}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -15,6 +17,10 @@ Global
 		{20DCF9D7-1A9A-4BB5-9E19-5501660AB9CA}.Debug|x64.Build.0 = Debug|x64
 		{20DCF9D7-1A9A-4BB5-9E19-5501660AB9CA}.Release|x64.ActiveCfg = Release|x64
 		{20DCF9D7-1A9A-4BB5-9E19-5501660AB9CA}.Release|x64.Build.0 = Release|x64
+		{C45215D0-5075-41FA-8CAD-CB11C72CD093}.Debug|x64.ActiveCfg = Debug|x64
+		{C45215D0-5075-41FA-8CAD-CB11C72CD093}.Debug|x64.Build.0 = Debug|x64
+		{C45215D0-5075-41FA-8CAD-CB11C72CD093}.Release|x64.ActiveCfg = Release|x64
+		{C45215D0-5075-41FA-8CAD-CB11C72CD093}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
